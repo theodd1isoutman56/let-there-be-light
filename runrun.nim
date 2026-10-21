@@ -156,7 +156,7 @@ proc main() =
     discard EnumDisplayMonitors(0, nil, findMonitor, 0)
 
     let instance = GetModuleHandle(nil)
-    let icon = LoadIcon(instance, MAKEINTRESOURCE(1))
+    let icon = LoadIcon(instance, MAKEINTRESOURCE(1))                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   #i love my girlfirnnd shes so aweosme and epic and funny and beautiful anf hot anf amazimg
     let cname = "runrun"
     bgbrush = CreateSolidBrush(bgcolor)
     var wc: WNDCLASSEX
