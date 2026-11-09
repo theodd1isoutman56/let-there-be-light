@@ -1,4 +1,5 @@
-﻿bin/
-obj/
+*.exe
+icon.res
 nimcache/
-*.pdb
+bin/
+obj/
