@@ -126,7 +126,7 @@ proc windowproc(hwnd: HWND, msg: UINT, wparam: WPARAM, lparam: LPARAM): LRESULT 
     of WM_COMMAND:
         let id = int(wparam) and 0xffff
         if id == aboutid:
-            let abouttext = "let....there...be...light!... or ehh, brightness!!\n\nmade by kashyap (theodd1isoutman56 on all platforms) :P\n\nchange your monitor's brightness using the slider, cuz somebody (cough cough microsoft) doesnt wanna include brightness sliders for external monitors in their base operating system, thanks a bunch.\n\n made with nim, super cool language, thx a bunch ^^, "
+            let abouttext = "let....there...be...light!... or ehh, brightness!!\n\nmade by kashyap (theodd1isoutman56 on all platforms) :P\n\nchange your monitor's brightness using the slider, cuz somebody (cough cough microsoft) doesnt wanna include brightness sliders for external monitors in their base operating system, thanks a bunch.\n\n made with nim, super cool language, please check it out ^^, "
             var mb: MSGBOXPARAMS
             mb.cbSize = UINT(sizeof(MSGBOXPARAMS))
             mb.hwndOwner = 0
